@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <style>html, body { display: none; margin: 0; padding: 0; }</style>
-    <script>
-      const baseUrl = "https://script.google.com/macros/s/AKfycbz2FMedwcnxA5ewjSdEj43ZBYGvhuyI_BD7bhTgLay_pUpVOEIkmL__dQ_9CL1aFpqR/exec?page=Accueil";
-      const extraParams = window.location.search ? "&" + window.location.search.slice(1) : "";
-      window.location.replace(baseUrl + extraParams);
-    </script>
-    <noscript>
-      <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbz2FMedwcnxA5ewjSdEj43ZBYGvhuyI_BD7bhTgLay_pUpVOEIkmL__dQ_9CL1aFpqR/exec?page=Accueil">
-    </noscript>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <title>Ampeti - progiciel de gestion intégré</title>
+
+  <!-- 1. Favicon pour le navigateur et les favoris -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <!-- 2. Aperçu lors du partage du lien (WhatsApp, Messenger, LinkedIn...) -->
+  <meta property="og:title" content="Ampeti - progiciel de gestion intégré">
+  <meta property="og:description" content="Ampeti ERP centralise la gestion de votre entreprise : administration, facturation, finances, ressources humaines, opérations et marketing. Gagnez en visibilité, organisez vos activités et maîtrisez vos processus de gestion depuis une même plateforme">
+  <meta property="og:image" content="https://github.io">
+  <meta property="og:url" content="https://ampeti.erp">
+  <meta property="og:type" content="website">
+
+  <!-- 3. Redirection silencieuse (délai de 1s pour conserver l'aperçu de partage) -->
+  <meta http-equiv="refresh" content="1; url=https://script.google.com/macros/s/AKfycbz2FMedwcnxA5ewjSdEj43ZBYGvhuyI_BD7bhTgLay_pUpVOEIkmL__dQ_9CL1aFpqR/exec?page=Accueil">
+  <script>
+    setTimeout(function() {
+      window.location.replace("https://script.google.com/macros/s/AKfycbz2FMedwcnxA5ewjSdEj43ZBYGvhuyI_BD7bhTgLay_pUpVOEIkmL__dQ_9CL1aFpqR/exec?page=Accueil");
+    }, 800);
+  </script>
+</head>
+<body>
+</body>
 </html>
